@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bitcoin Value</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class='container'>
+  
+ <div class="info">
+<h1>Bitcoin Current Price <span id='text'></span> is: <span id="price"></span></h1>
+</div>
+
+
+
+<!-- <input type="radio" id="dollar" name='curr' checked=true>Dollars
+<input type="radio" id="euro" name='curr'>Euros
+<input type="radio" id="gbp" name='curr'>Pounds -->
+
+ <div class="options">
+   <h3 class="inline">Select Currency: </h3>
+<select id="currency">
+  <option value="dollars" id="dollar" style="font-family: 'Titillium Web', sans-serif">Dollars</option>
+  <option value="euros" id="euro" style="font-family: 'Titillium Web', sans-serif">Euros</option>
+  <option value="pounds" id="gbp" style="font-family: 'Titillium Web', sans-serif">Pounds</option>
+</select>
+</div>
+  
+<div class="button"> 
+<button id="btn">Refresh Data</button>
+</div> 
+  
+<div class="update">
+<h3>Data updated at: <span id="updateTxt"></span></h3>
+</div>   
+</div>
+</body>
+</html>
