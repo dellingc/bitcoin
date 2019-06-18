@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #e3e6ea;
+}
+
+span {
+  color: green;
+}
+
+#text {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options {
+  margin: 15px;
+}
+
+.inline {
+  display: inline;
+}
+
+#btn {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  background-color: #4CAF50;
+  border-radius: 20px;
+  position: relative;
+  color: white;
+  height: 50px;
+  border: none;
+  box-shadow: 0 5px #888888;
+}
+
+#btn:hover {
+  box-shadow: 0 3px #888888;
+  top: 3px;
+  cursor: pointer;
+}
+
+#btn:active {
+/*   background-color: white;
+  color: #4CAF50;
+  border: solid 2px #4CAF50; */
+  box-shadow: none;
+  top: 5px;
+}
+
+#btn:focus {
+  outline:0;
+}
+
+#currency {
+  height: 25px;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+}
+
+#currency:focus {
+  outline: 0;
+}
